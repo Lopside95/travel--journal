@@ -7,18 +7,18 @@ export default [
     id: 1,
     place: "Athens",
     country: "Greece",
-    mapsUrl: "Athens URL",
+    mapsUrl: "https://goo.gl/maps/jRRjznYWpQuHD5AW6",
     startDate: "June 2016",
     endDate: "July 2016",
     description:
-      "Athens is the capital of Greece. It was also at the heart of Ancient Greece, a powerful civilization and empire. The city is still dominated by 5th-century BC landmarks, including the Acropolis. a hilltop citadel topped with ancient buildings like the colonnaded Parthenon temple.",
+      "Athens is the capital of Greece. It was also at the heart of Ancient Greece, a powerful civilization and empire. The city is still dominated by 5th-century BC landmarks, including the Acropolis.",
     img: "./travel-journal-photos/Athens.jpg",
   },
   {
     id: 2,
     place: "Ithaca",
     country: "Greece",
-    mapsUrl: "Ithaca URL",
+    mapsUrl: "https://goo.gl/maps/amPNiztfADAKW3Tw8",
     startDate: "June 2016",
     endDate: "July 2016",
     description:
@@ -29,7 +29,7 @@ export default [
     id: 3,
     place: "Plettenberg Bay",
     country: "South Africa",
-    mapsUrl: "PLett URL",
+    mapsUrl: "https://goo.gl/maps/8zSGA7QEVTJLE3ReA",
     startDate: "January 2017",
     endDate: "February 2017",
     description:

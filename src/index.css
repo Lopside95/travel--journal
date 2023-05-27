@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@100;200;300;400;500;600&display=swap");
 * {
-  /* background: rgb(215, 224, 227); */
   font-family: "Inter", sans-serif;
 }
 
@@ -37,14 +36,12 @@ p {
   align-items: center;
   justify-content: center;
   height: 60px;
-  /* background: rgb(196, 212, 196); */
   background: #f55a5a;
   border-radius: 80% 80% 0 0;
   margin-bottom: -10px;
 }
 
 .card-div {
-  /* background: rgb(181, 181, 229); */
   display: grid;
   grid-template-columns: 150px 600px;
   grid-template-rows: 50px 70px 50px 70px;
@@ -70,23 +67,26 @@ p {
 
 .country {
   display: flex;
-  width: 200px;
-  align-items: center;
-  justify-content: space-evenly;
+  width: 50vw;
+  align-items: baseline;
+  justify-content: start;
 }
 
 .pin {
   height: 10px;
+  padding-right: 10px;
+}
+
+.country-name {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.maps-url {
+  font-size: small;
 }
 
 .description {
   padding-bottom: 10px;
   border-bottom: 1px solid grey;
 }
-
-/* How would I create individual lines/elements that aren't connected to 
-  the description - e.g. in the figma design they are separate.
-  Would it be done by using an img or something as the line and not a border? */
-
-/* How do I change the section of image for individual images, 
-specifically, the ithaca pic. Would it have something to do with the id? */
